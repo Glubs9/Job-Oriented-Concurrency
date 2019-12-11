@@ -9,6 +9,7 @@ Fix wording in this document
 Add description of Job-Oriented-Concurrency    
 Add comments to the code    
 Publish to PyPi   
+Cleanup/Refactor the code    
 
 # How to use
 To use the library/framework you first have to initalize an object of the type JocTree.     
