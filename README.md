@@ -11,3 +11,5 @@ note: there can only be one end function and calling add_end_func again will cha
 to delete anything just change the add in the method signature to del. 
 note: to delete a function from the tree it must have no connections. The tree will raise a value error.
 to run the tree use the method [JocTree].run()
+
+All functions that are being added to the tree must take one parametter which will be a dictionary. the dictionary will have keys of the names of functions that the function has a dependency for/is connected to (function names can be found with the value [function].__name__) and the return values of those functions.
