@@ -49,7 +49,7 @@ class JocTree:
         else:
             delete_error_connected(self, infunc)
 
-    def connect(self, func_parent, func_child):
+    def add_connect(self, func_parent, func_child):
         self.funcs[func_parent].add_child(self.funcs[func_child])
         self.funcs[func_child].inc_amount_of_params()
 
