@@ -1,9 +1,8 @@
 """
 TODO:
-    clean up and refactor the code
-    make into a module that can be imported 
+    clean up/refactor the code
     add comments
-    (maybe add more error handling
+    (maybe add more error handling)
 """
 
 from multiprocessing import Process, Lock, Queue, Pipe
