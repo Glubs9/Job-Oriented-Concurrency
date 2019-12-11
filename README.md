@@ -1,6 +1,15 @@
 # Job-Oriented-Concurrency
 A python library for concurrency based on jobs and dependencies between them.
 
+# Note
+This might already exist as something like a Job Scheduler but I'm not sure. This was made more for fun than for anything else.
+
+# To-Do
+Fix wording in this document   
+Add description of Job-Oriented-Concurrency    
+Add comments to the code    
+Publish to PyPi   
+
 # How to use
 To use the library/framework you first have to initalize an object of the type JocTree.     
 To add a job/function to the tree use the method [JocTree].add_func([function])         
