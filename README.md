@@ -2,7 +2,7 @@
 A python library for concurrency based on jobs and dependencies between them.
 
 # Note
-This might already exist as something like a Job Scheduler but I'm not sure. This was made more for fun than for anything else.
+This might already exist but I'm not sure. This was made more for fun than for anything else.
 
 # To-Do
 Fix wording in this document   
