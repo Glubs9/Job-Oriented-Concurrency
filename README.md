@@ -5,11 +5,13 @@ A python library for concurrency based on jobs and dependencies between them.
 This might already exist but I'm not sure. This was made more for fun than for anything else.
 
 # To-Do
-Fix wording in this document   
-Add description of Job-Oriented-Concurrency    
+Fix wording in this document    
 Add comments to the code    
 Publish to PyPi   
 Cleanup/Refactor the code    
+
+# Description
+Job Oriented Concurrencyis a system of building concurrency where you define jobs, basically functions, and dependencies/connections. These connections are of the form a tree with the starting functions being called first with the functions that are dependent on the results from those functions being called with the values of the start functions finally returning the value of the optional end function. The concurrency comes from the fact that any function that is not dependent on any other function is able to be run at the same time as other functions. This effectively works as optimization (note: the setting up of the tree and handling might take longer than very light functions).
 
 # How to use
 To use the library/framework you first have to initalize an object of the type JocTree.     
